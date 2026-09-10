@@ -1,0 +1,27 @@
+name: cs133
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - graphviz
+  - pip:
+      - ipykernel
+      - numpy
+      - scipy
+      - pandas
+      - matplotlib
+      - seaborn
+      - plotly
+      - scikit-learn
+      - folium
+      - geopy
+      - geopandas
+      - panel
+      - bokeh
+      - hvplot
+      - pillow
+      - six
+      - graphviz
+      - datascience
+      - pydotplus
